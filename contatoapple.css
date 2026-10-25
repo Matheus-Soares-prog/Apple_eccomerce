@@ -122,20 +122,28 @@
             color: #86868b;
             margin: 8px 0;
         }
-        
 @media (max-width: 768px) {
+    
     #menu ul {
-        flex-wrap: wrap;
-        gap: 15px;
-        padding: 0 10px;
+        flex-direction: row; 
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 5px;
+        list-style: none;
+        overflow-x: auto; 
+        white-space: nowrap;
     }
 
     #menu a {
-        font-size: 13px;
+        font-size: 11px; 
+        color: #1d1d1f;         
+        text-decoration: none; 
     }
 
     #menu .logo-item a {
-        font-size: 20px;
+        font-size: 15px; 
+        color: #1d1d1f;         
     }
 
     section h1 {
@@ -150,7 +158,6 @@
         margin-bottom: 25px;
     }
 
-    
     form {
         max-width: 90%;
         padding: 20px 15px;
